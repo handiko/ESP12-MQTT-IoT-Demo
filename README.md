@@ -17,7 +17,7 @@ const char* brokerUser = "your_mqttBroker_username";
 const char* brokerPass = "your_mqttBroker_pass";
 const char* broker = "your_broker_server";
 ```
-personally, i am using mqtt.dioty.co for the broker server.
+personally, i am using `mqtt.dioty.co` for the broker server, so my username would be `myemail@email.com`. You can use another mqtt broker server.
 
 * Put your **WiFi credentials** into:
 ```cpp
