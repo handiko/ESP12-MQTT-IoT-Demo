@@ -29,3 +29,16 @@ you can whether use only one SSID and password or all of them.
 
 * ADC values are reported into the `/out/adc` topic and the AC statuses are reported into the `/out/stat`.
 * ADC enabling/disabling commands are received from the `/in` topic.
+
+## TODO
+* Optimize the code (there is a lot of room for improvements!!)
+* Adding capabitilies for controlling another I/O ports.
+* ...
+
+## Contributing
+1. Fork it [https://github.com/handiko/ESP12-MQTT-IoT-Demo/fork](https://github.com/handiko/ESP12-MQTT-IoT-Demo/fork)
+2. Create new branch (`git checkout -b myfeature`)
+3. Do some editing / create new feature
+4. Commit your works (`git commit -m "Adding some feature blah blah blah.."`)
+5. Push to the branch (`git push -u origin myfeature`)
+6. Create a new Pull Request
