@@ -1,4 +1,4 @@
-# ESP12-MQTT-IoT-Demo - An ESP-12 Demonstration for Sending and Receiving Data using MQTT Protocol
+# ESP12-MQTT-IoT-Demo - A Very Simple ESP-12 Demonstration for Sending and Receiving Data using MQTT Protocol
 
 This project demonstrates a very simple implementation of ESP-12 to sending ADC reading and status, and receiving command from remote user through MQTT protocol. The sent data is just a floating ADC input reading and ADC reading status, and the received data from remote user is a command to enable/disable ADC reading.
 
