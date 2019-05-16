@@ -26,3 +26,6 @@ wifiMulti.addAP("ssid_from_AP_2", "your_password_for_AP_2");
 wifiMulti.addAP("ssid_from_AP_3", "your_password_for_AP_3");
 ```
 you can whether use only one SSID and password or all of them.
+
+* ADC values are reported into the `/out/adc` topic and the AC statuses are reported into the `/out/stat`.
+* ADC enabling/disabling commands are received from the `/in` topic.
