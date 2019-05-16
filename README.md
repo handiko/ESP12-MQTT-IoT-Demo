@@ -34,8 +34,10 @@ you can whether use only one SSID and password or all of them.
 Here, I am using the MQTT Dashboard Smartphone App to see the data and to control the Wemos D1 through MQTT protocol.
 
 * First, we command the ADC to be disabled by sending `0` charachter into the `/in/` topic. The effects are Wemos will report ADC disabled into `/out/stat` topic and ADC voltage into `/into/adc` topic.
+![](./disabled.png)
 
-* Then, we command the Wemos to enabling the ADC by sending `1` character into the `/in/` topic. 
+* Then, we command the Wemos to enabling the ADC by sending `1` character into the `/in/` topic.
+![](./enabled.png)
 
 ## TODO
 * Optimize the code (there is a lot of room for improvements!!)
