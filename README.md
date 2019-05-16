@@ -2,8 +2,7 @@
 
 This project demonstrates a very simple implementation of ESP-12 to sending ADC reading and status, and receiving command from remote user through MQTT protocol. The sent data is just a floating ADC input reading and ADC reading status, and the received data from remote user is a command to enable/disable ADC reading.
 
-Tested on Wemos D1 Mini and Arduino 1.8.9 IDE
-![](./square_img.jpg)
+Tested on Wemos D1 Mini and Arduino 1.8.9 IDE.
 
 ## Dependencies
 There are a few dependencies required:
